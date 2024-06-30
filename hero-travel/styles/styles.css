@@ -292,18 +292,21 @@ nav {
 }
 
 .card-description {
-  color: rgb(90, 90, 93);
-  font-size: 1rem;
-  font-weight: 400;
-  /* margin-bottom: 6rem; */
   width: 50%;
   margin: 0 auto;
 }
 
+.card-description,
+.support-description {
+  color: rgb(90, 90, 93);
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
 .contact-section {
   display: flex;
-  margin: 40px 150px;
-  gap: 20px;
+  gap: 1.5rem;
   align-items: center;
 }
 .contact-image {
@@ -504,6 +507,9 @@ footer {
     text-align: center;
   }
 
+  .footer-last {
+    margin-top: 2rem;
+  }
   footer {
     padding: 2rem 0;
   }
@@ -541,6 +547,10 @@ footer {
   .card-description {
     width: 100%;
     padding: 1rem;
+  }
+
+  .footer-last {
+    margin-top: 3rem;
   }
 
   footer {
