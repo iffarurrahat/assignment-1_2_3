@@ -1,0 +1,523 @@
+/* mulish font family */
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+/* shared styles */
+* {
+  font-family: "Mulish", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.btn-primary {
+  border-radius: 8px;
+  background: rgb(255, 84, 0);
+  border: 0;
+  padding: 16px 30px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.btn-secondary {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  border-radius: 8px;
+  background: rgb(255, 84, 0);
+  border: 0;
+  padding: 14px 34px;
+  cursor: pointer;
+}
+
+/* header related styles */
+header > nav {
+  margin-bottom: 10px;
+}
+
+header > nav > div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.navbar-list {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  text-decoration: none;
+}
+
+.banner-section {
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8),
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-image: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 550px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-header {
+  color: rgb(255, 255, 255);
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.banner-description {
+  color: rgb(255, 255, 255);
+  font-family: Mulish;
+  font-size: 1rem;
+  margin-bottom: 4rem;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.banner-inputs {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  width: 60%;
+  margin: 0 auto;
+  padding: 16px;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.banner-inputs input {
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  border: 0;
+  padding: 8px 10px;
+}
+
+/* main styles */
+
+.popular-tour-section {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 80px 0px;
+}
+
+.tour-header {
+  color: rgb(19, 19, 24);
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.tour-description {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.tour-description > li {
+  margin-bottom: 10px;
+  margin: 1rem;
+}
+
+.choose-destination-description {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.destion-image1,
+.destination-image2,
+.destination-image3 {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  align-items: center;
+}
+
+.maldives {
+  background-image: url("../Images/Rectangle\ 5.png");
+  width: 573px;
+  height: 300px;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 800;
+  padding-top: 132px;
+}
+
+.indonesia {
+  background-image: url("../Images/Rectangle\ 8.png");
+  width: 573px;
+  height: 300px;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 800;
+  padding-top: 132px;
+}
+
+.srilanka {
+  background-image: url("../Images/Rectangle\ 6.png");
+  width: 374px;
+  height: 286px;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 800;
+  padding-top: 132px;
+  margin-top: -120px;
+}
+
+.america {
+  background-image: url("../Images/Rectangle\ 7.png");
+  width: 474px;
+  height: 286px;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 800;
+  padding-top: 132px;
+  margin-top: -120px;
+}
+
+.kashmir {
+  background-image: url("../Images/Rectangle\ 9.png");
+  width: 274px;
+  height: 286px;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 800;
+  padding-top: 132px;
+  margin-top: -120px;
+}
+
+.banglasdesh {
+  background-image: url("../Images/Rectangle\ 11.png");
+  width: 473px;
+  height: 300px;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 800;
+  padding-top: 132px;
+  margin-top: -120px;
+}
+
+.bandorban {
+  background-image: url("../Images/Rectangle\ 10.png");
+  width: 673px;
+  height: 300px;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 800;
+  padding-top: 132px;
+  margin-top: -120px;
+}
+
+.benefits-section {
+  text-align: center;
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+}
+
+.benefits-section-card {
+  display: flex;
+  gap: 24px;
+  margin: 48px 135px;
+}
+
+.card1 {
+  box-sizing: border-box;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  border-radius: 16px;
+  background: rgba(251, 181, 99, 0.05);
+  text-align: left;
+  padding: 32px;
+}
+
+.card2 {
+  box-sizing: border-box;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  border-radius: 16px;
+  background: rgba(41, 206, 246, 0.05);
+  text-align: left;
+  padding: 32px;
+}
+
+.card3 {
+  box-sizing: border-box;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  border-radius: 16px;
+  background: rgba(233, 68, 68, 0.05);
+  text-align: left;
+  padding: 32px;
+  margin: 24px 430px;
+}
+
+.card-header {
+  color: rgb(19, 19, 24);
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  color: rgb(90, 90, 93);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.contact-section {
+  display: flex;
+  margin: 40px 150px;
+  gap: 20px;
+  align-items: center;
+}
+.contact-image {
+  height: 400px;
+  width: 800px;
+}
+
+.newsletter-section {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 80px 0px;
+}
+
+.newsletter-part {
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 84, 0);
+  border-radius: 1rem;
+  padding: 3rem;
+  width: 100%;
+}
+
+.newsletter-image {
+  position: relative;
+}
+
+.newsletter-image > img {
+  width: fit-content;
+}
+
+hr {
+  border: 1px solid rgba(19, 19, 24, 0.1);
+}
+
+.input-name,
+.input-email {
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  color: rgba(19, 19, 24, 0.3);
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1rem;
+  border: 0px;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.subscribe {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.btn-travel {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.travel-button {
+  /* margin: -220px; */
+  position: absolute;
+  bottom: 4.5rem;
+  right: 1rem;
+  rotate: -30deg;
+}
+
+/* footer styles */
+footer {
+  background: rgba(19, 19, 24, 0.05);
+  text-align: center;
+  height: 502px;
+  width: 100%;
+}
+
+.footer-description {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  align-items: center;
+  padding-top: 110px;
+}
+
+.budget-style {
+  color: rgb(19, 19, 24);
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.tour-style {
+  color: rgb(255, 84, 0);
+}
+
+.image-icon {
+  width: 40px;
+  height: 46.67px;
+}
+
+.social-icons-div {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 34px;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-last {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 576px) {
+  .small-device-padding {
+    padding: 0 10px;
+  }
+  .navbar-list {
+    margin-top: 10px;
+    text-align: center;
+    gap: 10px;
+  }
+  header > nav,
+  .navbar-list,
+  .banner-inputs,
+  .popular-tour-section,
+  .destion-image1,
+  .destination-image2,
+  .destination-image3,
+  .benefits-section-card,
+  .newsletter-section,
+  .contact-section {
+    flex-direction: column;
+  }
+
+  .banner-section {
+    height: 100%;
+    width: 100%;
+  }
+
+  .banner-header {
+    font-size: 30px;
+    margin-bottom: 16px;
+  }
+
+  .banner-description {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .banner-fields {
+    padding: 20px;
+  }
+
+  .popular-tour-section {
+    margin: 20px 0px;
+    gap: 20px;
+  }
+
+  .popular-tour-section_img > img {
+    width: 100%;
+  }
+
+  .newsletter-part {
+    padding: 1rem;
+  }
+
+  .tour-header {
+    font-size: 2rem;
+  }
+
+  .benefits-section-card,
+  .card3 {
+    margin: 20px;
+  }
+
+  .newsletter-section {
+    margin: 20px;
+  }
+
+  .travel-button {
+    margin: 0px;
+    margin-top: -220px;
+  }
+
+  .contact-section {
+    margin: 0px 20px;
+  }
+  .contact-image {
+    width: 100%;
+  }
+  .newsletter-section > div > img {
+    width: 100%;
+  }
+
+  footer {
+    width: auto;
+    padding: 0px 20px;
+  }
+}
+
+/* tablet device */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .newsletter-section {
+    flex-direction: column;
+  }
+  .medium-device-padding {
+    padding: 0 20px;
+  }
+  .banner-inputs {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .popular-tour-section_img > img {
+    width: 100%;
+  }
+}
