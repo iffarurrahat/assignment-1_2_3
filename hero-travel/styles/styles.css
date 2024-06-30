@@ -295,7 +295,9 @@ nav {
   color: rgb(90, 90, 93);
   font-size: 1rem;
   font-weight: 400;
-  margin-bottom: 2rem;
+  /* margin-bottom: 6rem; */
+  width: 50%;
+  margin: 0 auto;
 }
 
 .contact-section {
@@ -321,7 +323,7 @@ nav {
   border: 1px solid rgb(255, 84, 0);
   border-radius: 1rem;
   padding: 3rem;
-  width: 100%;
+  width: 50%;
 }
 
 .newsletter-image {
@@ -329,7 +331,7 @@ nav {
 }
 
 .newsletter-image > img {
-  width: fit-content;
+  width: 100%;
 }
 
 hr {
@@ -372,16 +374,15 @@ hr {
 footer {
   background: rgba(19, 19, 24, 0.05);
   text-align: center;
-  height: 502px;
   width: 100%;
+  padding: 6rem 0;
 }
 
 .footer-description {
   display: flex;
   justify-content: center;
   gap: 16px;
-  align-items: center;
-  padding-top: 110px;
+  margin-bottom: 1rem;
 }
 
 .budget-style {
@@ -403,17 +404,16 @@ footer {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-top: 34px;
-  margin-bottom: 20px;
+  margin: 2rem 0;
 }
 
 .social-icons {
-  width: 40px;
-  height: 40px;
+  width: 1rem;
+  height: 1rem;
 }
 
 .footer-last {
-  margin-top: 50px;
+  margin-top: 4rem;
 }
 
 @media screen and (max-width: 576px) {
@@ -444,11 +444,12 @@ footer {
   }
 
   .banner-header {
-    font-size: 30px;
-    margin-bottom: 16px;
+    font-size: 2rem;
+    margin-bottom: 1rem;
   }
 
-  .banner-description {
+  .banner-description,
+  .card-description {
     width: 100%;
     font-size: 14px;
   }
@@ -462,11 +463,14 @@ footer {
     gap: 20px;
   }
 
-  .popular-tour-section_img > img {
+  .popular-tour-section_img > img,
+  .newsletter-section > div > img {
     width: 100%;
   }
 
-  .newsletter-part {
+  .newsletter-part,
+  .contact-image {
+    width: 100%;
     padding: 1rem;
   }
 
@@ -494,24 +498,35 @@ footer {
   .contact-image {
     width: 100%;
   }
-  .newsletter-section > div > img {
+
+  .banner-description {
     width: 100%;
+    text-align: center;
   }
 
   footer {
-    width: auto;
-    padding: 0px 20px;
+    padding: 2rem 0;
   }
 }
 
 /* tablet device */
 @media screen and (min-width: 577px) and (max-width: 992px) {
-  .newsletter-section {
-    flex-direction: column;
-  }
   .medium-device-padding {
     padding: 0 20px;
   }
+  .newsletter-section {
+    flex-direction: column;
+  }
+
+  .navbar-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .banner-header {
+    font-size: 3rem;
+  }
+
   .banner-inputs {
     width: 90%;
     flex-direction: column;
@@ -519,5 +534,16 @@ footer {
 
   .popular-tour-section_img > img {
     width: 100%;
+  }
+
+  .newsletter-part,
+  .contact-image,
+  .card-description {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  footer {
+    padding: 3rem 0;
   }
 }
